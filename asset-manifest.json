@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/react-equation-solver/static/js/main.482ce493.chunk.js",
-    "main.js.map": "/react-equation-solver/static/js/main.482ce493.chunk.js.map",
+    "main.js": "/react-equation-solver/static/js/main.9c13cebc.chunk.js",
+    "main.js.map": "/react-equation-solver/static/js/main.9c13cebc.chunk.js.map",
     "runtime-main.js": "/react-equation-solver/static/js/runtime-main.8b75ac62.js",
     "runtime-main.js.map": "/react-equation-solver/static/js/runtime-main.8b75ac62.js.map",
     "static/css/2.ae2f4c93.chunk.css": "/react-equation-solver/static/css/2.ae2f4c93.chunk.css",
     "static/js/2.377aaf51.chunk.js": "/react-equation-solver/static/js/2.377aaf51.chunk.js",
     "static/js/2.377aaf51.chunk.js.map": "/react-equation-solver/static/js/2.377aaf51.chunk.js.map",
     "index.html": "/react-equation-solver/index.html",
-    "precache-manifest.38230785fc84601b516c8575b609ce8d.js": "/react-equation-solver/precache-manifest.38230785fc84601b516c8575b609ce8d.js",
+    "precache-manifest.7c26e047d251c8d24cc14e6f4e955b07.js": "/react-equation-solver/precache-manifest.7c26e047d251c8d24cc14e6f4e955b07.js",
     "service-worker.js": "/react-equation-solver/service-worker.js",
     "static/css/2.ae2f4c93.chunk.css.map": "/react-equation-solver/static/css/2.ae2f4c93.chunk.css.map",
     "static/js/2.377aaf51.chunk.js.LICENSE.txt": "/react-equation-solver/static/js/2.377aaf51.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8b75ac62.js",
     "static/css/2.ae2f4c93.chunk.css",
     "static/js/2.377aaf51.chunk.js",
-    "static/js/main.482ce493.chunk.js"
+    "static/js/main.9c13cebc.chunk.js"
   ]
 }
