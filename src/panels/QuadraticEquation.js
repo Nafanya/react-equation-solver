@@ -62,6 +62,7 @@ class QuadraticEquation extends React.Component {
         console.log('new state: ' + JSON.stringify(this.state));
         const [a, b, c, error] = [this.state.a, this.state.b, this.state.c, this.state.error];
         const d = b * b - 4 * a * c;
+        const sqrtD = this.roundNumber(Math.sqrt(d));
         const isDZero = Math.abs(d) < Number.EPSILON;
         const x1 = this.roundNumber(-b + Math.sqrt(d)) / (2*a);
         const x2 = this.roundNumber(-b - Math.sqrt(d)) / (2*a);
@@ -92,11 +93,11 @@ class QuadraticEquation extends React.Component {
                         <MathJax.Node formula={"x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}."} />
                         <p>Найдём дискриминант:</p>
                         <MathJax.Node formula={"D = b^2 - 4ac"} />
-                        <MathJax.Node formula={`D = ${b}^2 - 4\\cdot${a}\\cdot${c}`} />
-                        <MathJax.Node formula={`D = ${d}`} />
+                        <MathJax.Node formula={`D = ${b}^2 - 4\\cdot${a}\\cdot${c} = ${d}`} />
+                        <MathJax.Node formula={`\\sqrt{D} = ${sqrtD}`} />
                         <p>Дискриминант не отрицателен, найдём корни:</p>
-                        <MathJax.Node formula={`x_1 = {-b + \\sqrt{d} \\over{2a}} = {-${b} + \\sqrt{${d}} \\over{2\\cdot${a}}} = ${x1}`} />
-                        <MathJax.Node formula={`x_2 = {-b - \\sqrt{d} \\over{2a}} = {-${b} - \\sqrt{${d}} \\over{2\\cdot${a}}} = ${x2}`} />
+                        <MathJax.Node formula={`x_1 = {-b + \\sqrt{D} \\over{2a}} = {-${b} + ${sqrtD}\\over{${a*2}}} = ${x1}`} />
+                        <MathJax.Node formula={`x_2 = {-b - \\sqrt{D} \\over{2a}} = {-${b} - {${sqrtD}} \\over{${a*2}}} = ${x2}`} />
                     </MathJax.Provider>
                 </Div>
                 }
